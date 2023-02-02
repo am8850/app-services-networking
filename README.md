@@ -314,8 +314,8 @@ Azure Services:
 
 Security at this level:
 - Public IP (DDOS protection)
-- - WAF protection
-- TLS enforced, cad add custom certificate to Application Gateway, and Application Gateway can do SSL offloading
+- AppGw provides SSL offloading WAF protection
+- TLS enforced, cad add custom certificate to Application Gateway
 - App Service Environment deployed to VNET subnet obtaining a private IP
 - SQL MI deployed to a VNET subnet obtaining a private IP
 - Traffic into the web app can only come from application gateway via the private IP
